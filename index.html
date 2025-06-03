@@ -1,35 +1,55 @@
-  <ul>
-                <h1>结构标签</h1>
-                <li><a href="#">header标签</a></li>
-                <li><a href="#">nav标签</a></li>
-                <li><a href="#">main标签</a></li>
-                <li><a href="#">aside标签</a></li>
-                <li><a href="#">footer标签</a></li>
-            
-                <h1>文本标签</h1>
-                <li><a href="">标题</a></li>
-                <li><a href="">段落</a></li>
-            
-                <h1>列表</h1>
-                <li><a href="">无序列表</a></li>
-                <li><a href="">有序列表</a></li>
-            
-                <h1>表格</h1>
-                <li><a href="">表格</a></li>
-            
-                <h1>表单</h1>
-                <li><a href="">表单</a></li>
-                 
-                <h1>超链接标签</h1>
-                <li><a href="">超链接</a></li>
-            
-                <h1>图片标签</h1>
-                <li><a href="">图片</a></li>
-            
-                <h1>视频标签</h1>
-                <li><a href="">视频</a></li>
-            
-            
-             </ul>
-            
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>阿东耶</title>
+
+   <style>
+           body{
+             margin: 0;
+             padding: 0;
+             display: flex;
+             justify-content: center;
+           }
+
+         .div1{
+             margin: 400px 0px;
+              background-color: rgb(22, 108, 214);
+              border: 2px solid black;
+              border-radius: 20px;
+              width: 800px;
+         }
+
+         .div1 ul{
+            display: flex;
+            justify-content: space-around;
+         }
+
+         .div1 ul li{
+            list-style: none;
+         }
+
+         .div1 ul li a{
+           text-decoration: none;
+         }
+
+         .div1 ul li a:hover{
+          border: 2px solid;
+          border-radius: 5px;
+           background-color: chartreuse;
+         }
+
+   </style>
+
+</head>
+<body>
+          <div class="div1">
+               <ul>
+                   <li><a href="">HTML</a></li>
+                   <li><a href="">CSS</a></li>
+                   <li><a href="">JavaSpript</a></li>
+               </ul>
+          </div>
+</body>
+</html>
